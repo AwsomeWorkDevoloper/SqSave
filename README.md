@@ -6,6 +6,13 @@
 1.  Run `git clone https://github.com/AwsomeWorkDevoloper/SqSave.git` in your desired location
 2. Import the database using a MySQL server like PHPMyAdmin
 3. Run `npm install`
+5. Create a file called `db-connect.js` that looks something like 
+`module.exports = {
+    host: 'localhost',
+    password: '',
+    user: 'root',
+    database: 'sqsave'
+};`
 4. Run `SqSave.exe` and there you go!
 
 
