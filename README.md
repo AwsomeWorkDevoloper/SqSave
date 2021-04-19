@@ -1,7 +1,7 @@
 # SqSave
 ### A command line github alternative I made for fun.
 ------------
-####To Try it out:
+#### To Try it out:
 
 1.  Run `git clone https://github.com/AwsomeWorkDevoloper/SqSave.git` in your desired location
 2. Import the database using a MySQL server like PHPMyAdmin
@@ -13,11 +13,11 @@
     user: 'root',
     database: 'sqsave'
 };`
-4. Run `SqSave.exe` and there you go!
+4. Run `SqSave.bat` and there you go!
 
 
 __________
-####Commands:
+#### Commands:
 - `uid`: Returns the current User id
 - `mk repo <name>`: Creates a repository
 - `upload <type> <repo> <location>`:  Uploads a **(type: `file` or `dir`)** to a repository
