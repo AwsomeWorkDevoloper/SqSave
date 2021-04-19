@@ -1,0 +1,14 @@
+{
+  "name": "sqsave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sqsave.js",
+  "scripts": {
+    "test": "node sqsave.js"
+  },
+  "author": "Squiggly",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
