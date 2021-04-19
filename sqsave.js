@@ -205,6 +205,7 @@ async function DeleteFile(location, repo) {
 }
 
 async function main() {
+    console.clear();
     console.log('Welcome to SQSave!');
     while (true) {
         const cmd = await read('> ');
